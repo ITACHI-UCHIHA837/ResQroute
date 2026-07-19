@@ -61,7 +61,7 @@ export default function AuthLoginForm({ className, link }) {
        // console.log("Stored token:", sessionStorage.getItem("token"));
 
     // redirect
-    window.location.href = "/ASME/";
+    window.location.href = "/ResQroute/";
 
     alert("Login success");
     reset();

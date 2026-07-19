@@ -63,7 +63,7 @@ export default function AuthRegisterForm({ className, link }) {
      sessionStorage.setItem("token", result.token);
 
     alert("register success");
-     window.location.href = "/ASME/";
+     window.location.href = "/ResQroute/";
     reset();
   } catch (error) {
     console.error(error);
